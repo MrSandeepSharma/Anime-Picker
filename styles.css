@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #fff;
+  color: #23395b;
+  text-align: center;
+  user-select: none;
+}
+
+/* typography */
+
+h1,
+p {
+  margin: 0;
+  text-align: left;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+span {
+  color: #faa62c;
+}
+
+label {
+  width: 100%;
+}
+
+/* Images */
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+}
+
+/* utility class */
+.dark-bg {
+  background-color: #23395b;
+  color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout */
+
+header {
+  background-color: #23395b;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.genre-container {
+  border: 3px solid #23395b;
+  border-bottom: none;
+}
+
+.genre-radio {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10px 15px;
+  border-bottom: 3px solid #23395b;
+}
+
+.highlight {
+  background-color: #23395b;
+  color: white;
+  accent-color: white;
+}
+
+.checkbox-container {
+  margin-top: 15px;
+  accent-color: #23395b;
+}
+
+.checkbox-container:hover,
+label:hover,
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 15px;
+  background: #23395b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  box-shadow: 0px 8px 10px 0 #9bb1d2;
+  transition: 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  scale: 0.8;
+}
+
+.container {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: fit-content;
+  border: 2px solid #faa62c;
+}
+
+.close-btn {
+  margin: 10px;
+  font-weight: 700;
+  border: 2px solid;
+  display: block;
+  padding: 4px 10px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.close-btn:hover,
+.close-btn:active,
+.close-btn:focus {
+  background-color: red;
+  cursor: pointer;
+}
+
+.modal-inner {
+  padding: 0 10px 10px 10px;
+}
+
+.modal-inner h2 {
+  margin: 5px;
+  color: #faa62c;
+}
+
+.modal-inner p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.modal-img {
+  width: 200px;
+}
